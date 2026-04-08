@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.box{
+     background-color: rgb(11, 11, 10);
+    width: 300px;
+    margin: 0 auto;
+    padding: 90px 8px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 4px 5px 20px 0px rgba(0,0,0,0.75); 
+    border: none;
+}
+
+.mainTitle{
+    font-size: 40px;
+}
+.mainTitle, .peopleCounter{
+    background-color: burlywood;
+    padding: 10px ;
+    
+}
+
+.topStripe, .bottomStripe{
+  background-color: burlywood;
+  
+}
+
+.mainTitle, .saveBtn, .peopleCounter, .visitedBtn, .previousEntries{
+    border-radius: 2px ; 
+}
+
+.peopleCounter{
+font-size: 30px;
+color: black ;
+background-color: burlywood;
+}
+
+.visitedBtn, .saveBtn{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 900;
+   border: none;
+    margin-top: 30px;
+}
+
+.visitedBtn:hover{
+    background-color: burlywood;
+    transition: 1s;
+    color: black;
+}
+
+.saveBtn:hover{
+    background-color: burlywood;
+    transition: 1s;
+    color: black;
+}
+
+.previousEntries{
+    background-color: burlywood;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px;
+}

@@ -68,3 +68,10 @@ background-color: burlywood;
     font-weight: 900;
     padding: 10px;
 }
+
+
+.bottomStripe{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}

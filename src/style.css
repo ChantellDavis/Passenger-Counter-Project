@@ -39,15 +39,16 @@ color: black ;
 background-color: burlywood;
 }
 
-.visitedBtn, .saveBtn{
+.visitedBtn, .saveBtn, .resetBtn{
     display: block;
     width: 100px;
     margin: 0 auto;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 900;
    border: none;
     margin-top: 30px;
+    border-radius: 5px;
 }
 
 .visitedBtn:hover{
@@ -60,6 +61,12 @@ background-color: burlywood;
     background-color: burlywood;
     transition: 1s;
     color: black;
+}
+
+.resetBtn:hover{
+    background-color: black;
+    transition: 1s;
+    color: #fff;
 }
 
 .previousEntries{
